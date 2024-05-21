@@ -1,0 +1,41 @@
+# Node.js Redis Caching Example
+
+This project demonstrates how to implement Redis caching for database queries in a Node.js application using Express and MongoDB.
+
+## Project Structure
+
+node-redis-caching/
+├── node_modules/
+├── src/
+│ ├── config/
+│ │ └── redisConfig.js
+│ ├── controllers/
+│ │ └── dataController.js
+│ ├── models/
+│ │ └── dataModel.js
+│ ├── routes/
+│ │ └── dataRoutes.js
+│ ├── services/
+│ │ └── cacheService.js
+│ ├── app.js
+├── .env
+├── package.json
+├── package-lock.json
+└── README.md
+
+
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- MongoDB
+- Redis
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mdung/node-redis-caching.git
+   cd node-redis-caching
